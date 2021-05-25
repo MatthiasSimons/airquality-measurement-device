@@ -92,7 +92,7 @@ def connect_and_publish():
             publish_environment_data(mqtt_client)
         except Exception as e:
             print(str(e))
-        time.sleep(5)
+        time.sleep(60)
 
 
 connect_and_publish()
