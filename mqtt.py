@@ -12,7 +12,7 @@ MQTT_CLIENT_ID = "Airquality"
 MQTT_PORT = 8883
 
 
-MQTT_HOST = "a17jeona196iam-ats.iot.eu-central-1.amazonaws.com"
+MQTT_HOST = "***"
 
 
 def connect_mqtt():
