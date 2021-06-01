@@ -1,3 +1,8 @@
 cert/
+<<<<<<< HEAD
 Rootkey.csv
 rootkey.csv
+=======
+backups/
+Backups/
+>>>>>>> 0a1222435bcd322234e5fd38c9dd55f1ba8e4b4d
