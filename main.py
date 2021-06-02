@@ -83,7 +83,7 @@ def connect_and_publish():
             break
         except:
             print("MQTT connection failed")
-
+            time.sleep(1)
 
     print("start publishing data")
     while True:
