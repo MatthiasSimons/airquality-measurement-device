@@ -6,7 +6,7 @@ import time
 import wifi
 import mqtt
 
-MQTT_TOPIC = "environment-data"
+MQTT_TOPIC = "environment-data-Matthias"
 
 # 400ppm – 750ppm: Good for health
 # 750 ppm – 1200 ppm: Take care

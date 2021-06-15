@@ -36,11 +36,22 @@ def measure():
         print('Cannot read BME280: ' + str(e))
 
     mq135 = MQ135(0)
+    print(mq135.get_resistance())
     mq135_measure = mq135.measure(temperature, humidity)
     ppm = mq135_measure["corrected_ppm"]
 
-    message = {'timestamp': timestamp, 'temperature': temperature, 'humidity': humidity, 'pressure': pressure, 'ppm': ppm}
+    message = {
+        'timestamp': timestamp,
+        'temperature': temperature,
+        'humidity': humidity,
+        'pressure': pressure,
+        'ppm': ppm,
+    }
     return message
+
+
+
+
 
 
 
