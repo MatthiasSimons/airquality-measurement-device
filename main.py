@@ -1,8 +1,6 @@
 import get_data
-from machine import RTC, Pin, PWM
 import json
 import time
-
 import wifi
 import mqtt
 
@@ -52,11 +50,6 @@ MQTT_TOPIC = "environment-data-Matthias"
     #     r_led = PWM(r_pin, frequency).duty(0)
     #     g_led = PWM(g_pin, frequency).duty(1024)
     #     b_led = PWM(b_pin, frequency).duty(0)
-
-def convert_to_iso(datetime):
-    y, m, d, _, h, mi, s, _ =  datetime
-    return "{}-{:02d}-{:02d}T{:02d}:{:02d}:{:02d}".format(y,m,d,h,mi,s)
-
 
 def measure_environment_data():
     return get_data.measure()
