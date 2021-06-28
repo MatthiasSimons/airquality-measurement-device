@@ -3,7 +3,7 @@ IoT-Project @ Fachhochschule Aachen Industrielle Produktion und Industrie 4.0
 
 Durch die anhaltende Coronavirus Pandemie hat der Infektionsschutz einen neuen Stellenwert erlangt. Um Infektionen mit dem SARS-CoV-2 Virus vorzubeugen sind verschiedenste Maßnahmen umzusetzen. In geschlossenen Räumen ist dies vor allem das regelmäßige lüften der Raumluft. Gerade bei kalten Temperaturen draußen ist es oftmals ein Streitpunkt wann und wie lange gelüftet werden soll. 
 Dieses Projekt soll diesen Streitpunkt beseitigen. Das Projekt verfolgt das Ziel die Menschen mit einem visuellen Signal permanent über den aktuellen Zustand der Raumluft informieren. Außerdem soll bei einer Grenzwertüberschreitung automatisiert eine E-Mail Benachrichtigung versendet werden.
-Coronavieren als solche sind nicht ohne weiteres in der Raumluft zu messen. Wenn ein Mensch ausatmet stößt er neben den sogenannten Aerosolen die mit Coronavieren belastet sein können auch CO2 aus. Dieser Zusammenhang zwischen der CO2-Konzentration und Coronavieren in der Luft macht die CO2-Konzentration zu einem guten Indikator für Coronavieren. 1
+Coronavieren als solche sind nicht ohne weiteres in der Raumluft zu messen. Wenn ein Mensch ausatmet stößt er neben den sogenannten Aerosolen die mit Coronavieren belastet sein können auch CO2 aus. Dieser Zusammenhang zwischen der CO2-Konzentration und Coronavieren in der Luft macht die CO2-Konzentration zu einem guten Indikator für Coronavieren.*
 
 Um die CO2-Konzentration in einem Raum Messen zu können wurde ein Prototyp entwickelt. Das Nachfolge Bild zeigt den fertigen Aufbau in der Praxis. Schematisch ist der Prototyp in der Datei "board_Steckplatine" dargestellt.
 
@@ -41,4 +41,4 @@ Für eine langfristige Verwendung des Prototypen sollte eine Schutzhülle erstel
 
 Bei diesem Github Repository handelt es sich um Dokumentation die als Anhang der ppt-Datei zu bewerten ist.
 
-1 https://frida-kahlo-schule.lvr.de/media/lvrfridakahloschule/aktuelles/corona/Lueften_in_Klassenraeumen_Empfehlungen_LVR_Dezernat_12.40_Arbeitssicherheit.pdf
+* https://frida-kahlo-schule.lvr.de/media/lvrfridakahloschule/aktuelles/corona/Lueften_in_Klassenraeumen_Empfehlungen_LVR_Dezernat_12.40_Arbeitssicherheit.pdf
