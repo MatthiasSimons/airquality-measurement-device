@@ -10,6 +10,7 @@ Um die CO2-Konzentration in einem Raum Messen zu können wurde ein Prototyp entw
 ![IMG_20210628_134908__01](https://user-images.githubusercontent.com/84568672/123632162-e901f880-d817-11eb-8385-2ec570b12084.jpg)
 
 Der Prototyp setzt sich aus folgenden Komponenten zusammen:
+
 -ESP8266 v2
 
 -MQ-135Gas Sensor Luftqualität Modul
@@ -21,7 +22,8 @@ Der Prototyp setzt sich aus folgenden Komponenten zusammen:
 -Stromversorgungsmodul für MB102 Breadboard
 
 
-Auf dem ESP8266 werden die Messwerte intern verarbeitet um LED als Warnsignal zu steuern. Desweiteren werden die Messwerte vom Mikrocontroller zu AWS gesendet und in einer Datenbank gespeichert. Wird ein vorab festgelegter Grenzwert für CO2 überschritten sendet AWS automatisch durch Simple Notification Services eine Mail mit der Aufforderung zum Lüften. Mittels Boto3 lassen sich die generierten Daten auslesen und tiefergehend analysieren.
+
+Auf dem ESP8266 werden die Messwerte intern verarbeitet um die LED als Warnsignal zu steuern. Desweiteren werden die Messwerte vom Mikrocontroller zu AWS gesendet und in einer Datenbank gespeichert. Wird ein vorab festgelegter Grenzwert für CO2 überschritten sendet AWS automatisch durch Simple Notification Services eine Mail mit der Aufforderung zum Lüften. Mittels Boto3 lassen sich die generierten Daten auslesen und tiefergehend analysieren.
 
 
 Nach einer ausführlichen Testphase des Prototypens konnten sich Probleme mit dem CO2 Sensor MQ-135 nicht beheben. Eine tiefgehende Recherche konnte auch keine Klarheit bringen. 
