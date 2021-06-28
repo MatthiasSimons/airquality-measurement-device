@@ -11,10 +11,15 @@ Um die CO2-Konzentration in einem Raum Messen zu können wurde ein Prototyp entw
 
 Der Prototyp setzt sich aus folgenden Komponenten zusammen:
 -ESP8266 v2
+
 -MQ-135Gas Sensor Luftqualität Modul
+
 -BME280 Barometrischer Sensor für Temperatur, Luftfeuchtigkeit und Luftdruck
+
 -RGB LED
+
 -Stromversorgungsmodul für MB102 Breadboard
+
 
 Auf dem ESP8266 werden die Messwerte intern verarbeitet um LED als Warnsignal zu steuern. Desweiteren werden die Messwerte vom Mikrocontroller zu AWS gesendet und in einer Datenbank gespeichert. Wird ein vorab festgelegter Grenzwert für CO2 überschritten sendet AWS automatisch durch Simple Notification Services eine Mail mit der Aufforderung zum Lüften. Mittels Boto3 lassen sich die generierten Daten auslesen und tiefergehend analysieren.
 
