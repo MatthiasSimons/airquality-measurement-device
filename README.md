@@ -41,4 +41,4 @@ Für eine langfristige Verwendung des Prototypen sollte eine Schutzhülle erstel
 
 Bei diesem Github Repository handelt es sich um Dokumentation die als Anhang der ppt-Datei zu bewerten ist.
 
-* https://frida-kahlo-schule.lvr.de/media/lvrfridakahloschule/aktuelles/corona/Lueften_in_Klassenraeumen_Empfehlungen_LVR_Dezernat_12.40_Arbeitssicherheit.pdf
+*https://frida-kahlo-schule.lvr.de/media/lvrfridakahloschule/aktuelles/corona/Lueften_in_Klassenraeumen_Empfehlungen_LVR_Dezernat_12.40_Arbeitssicherheit.pdf
