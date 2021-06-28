@@ -1,7 +1,7 @@
 # airquality-measurement-device
 IoT-Project @ Fachhochschule Aachen Industrielle Produktion und Industrie 4.0
 
-Durch die anhaltende Coronavirus Pandemie hat der Infektionsschutz einen neuen Stellenwert erlangt. Um Infektionen mit dem SARS-CoV-2 Virus vorzubeugen sind verschiedenste Maßnahmen umzusetzen. In geschlossenen Räumen ist dies vorallem das regelmäßige lüften der Raumluft. Gerade bei kalten Temperaturen draußen ist es jedoch oftmals ein Streipunkt wann und wie lange gelüftet werden soll. 
+Durch die anhaltende Coronavirus Pandemie hat der Infektionsschutz einen neuen Stellenwert erlangt. Um Infektionen mit dem SARS-CoV-2 Virus vorzubeugen sind verschiedenste Maßnahmen umzusetzen. In geschlossenen Räumen ist dies vorallem das regelmäßige lüften der Raumluft. Gerade bei kalten Temperaturen draußen ist es oftmals ein Streipunkt wann und wie lange gelüftet werden soll. 
 Dieses Projekt soll diesen Streitpunkt beseitigen. Das Projekt verfolgt das Ziel die Menschen mit einem visuellen Signal permanent über den aktuellen Zustand der raumluft informieren. Außerdem soll bei einer Grenzwertüberschreitung automatisiert eine E-Mail Benachrichtigung versendet werden.
 Coronavieren als solche sind nicht ohne weiteres in der Raumluft zu messen. Wenn ein Mensch ausatmet stößt er neben den sogenannten Aerosolen die mit Coronavieren belastet sein können auch CO2 aus. Dieser Zusammenhang zwischen der CO2-Konzentration und Coronavieren in der Luft macht die CO2-Konzentration zu einem guten Indikator für Coronavieren. 1
 
@@ -15,6 +15,9 @@ Der Prototyp setzt sich aus folgenden Komponenten zusammen:
 -BME280 Barometrischer Sensor für Temperatur, Luftfeuchtigkeit und Luftdruck
 -RGB LED
 -Stromversorgungsmodul für MB102 Breadboard
+
+Auf dem ESP8266 werden die Messwerte intern verarbeitet um LED als Warnsignal zu steuern. Desweiteren werden die Messwerte vom Mikrocontroller zu AWS gesendet. Wird ein vorab festgelegter Grenzwert für CO2 überschritten sendet AWS automatisch durch Simple Notification Services eine Mail mit der Aufforderung zum Lüften.
+
 
 
 
