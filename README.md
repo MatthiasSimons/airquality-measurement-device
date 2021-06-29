@@ -1,13 +1,13 @@
 # airquality-measurement-device
-IoT-Project @ Fachhochschule Aachen Industrielle Produktion und Industrie 4.0
+IoT-Projekt @ Fachhochschule Aachen Industrielle Produktion und Industrie 4.0
 
 # Aufgabenstellung
 
-> Suchen Sie sich eine Aufgabenstellung des Industrial Engineerings, bei der Sie eine Zeitreihenmessung benötigen
-> Beschreiben Sie den Use Case mit Problemstellung und den Versuchsaufbau
-> Erstellen Sie den Prototyp und führen die Messung durch; Übertragung und Darstellung der Messwerte ins Internet erforderlich
-> Auswertung und Interpretation der Messreihe
-> Lessons Learned
+- Suchen Sie sich eine Aufgabenstellung des Industrial Engineerings, bei der Sie eine Zeitreihenmessung benötigen
+- Beschreiben Sie den Use Case mit Problemstellung und den Versuchsaufbau
+- Erstellen Sie den Prototyp und führen die Messung durch; Übertragung und Darstellung der Messwerte ins Internet erforderlich
+- Auswertung und Interpretation der Messreihe
+- Lessons Learned
 
 # Deliverable 1
 
