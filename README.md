@@ -80,11 +80,11 @@ Auf folgender Abbildung ist der zeitliche Verlauf der CO2-Konzentration vom 17.0
 Es ist zu erkennen, dass die Messwerte über den Zeitraum vom 17.05. bis zum 13.06.2021 stark schwanken und unrealistische Werte annehmen. Im Zeitraum vom 01.06. bis zum 04.06.2021 konnten realistische Werte aufgenommen werden. Der Verlauf der CO2 Konzentration zeigt den erwarteten nahezu linearen Verlauf.
 
 ## Diskussion
-**kritische Betrachtung**  
+**Kritische Betrachtung**  
 Wie bereits beschrieben sind die gemessen Werte überwiegend nicht aussagekräftig. Zwischenzeitlich konnten plausible Messwerte aufgenommen werden und die Funktion des Systems bestätigt werden. Sobald die CO2-Konzentration 1000 ppm überschritt begann die LED gelb zu leuchten. Stieg die CO2-Konzentration weiter auf über 2000ppm leuchtete die LED rot. Desweiteren wurde durch die Grenzwertüberschreitung von 2000ppm automatisiert eine E-Mail versendet. Aufgrund der schlechten Datenbasis ließ sich kein akkurates Modell bilden. 
 
 **Verbesserungsmöglichkeiten**  
-Die Problemanalyse ergab das die Ursache der schlechten Datenqualität an dem Luftqualitätssensor liegt. Eine Recherche ergab das der MH-Z19C CO2-Sensor zuverlässiger und genauer ist. Dieser Sensor ist zwar teuer, aber gewährt die Funktion und Erfüllung der Aufgabe.
+Die Problemanalyse ergab das die Ursache der schlechten Datenqualität an dem Luftqualitätssensor liegt. Eine Recherche ergab das der MH-Z19C CO2-Sensor zuverlässiger und genauer ist. Dieser Sensor ist zwar teurer, aber gewährt die Funktion und Erfüllung der Aufgabe.
 Um die Nutzbarkeit des Prototypens zukünftig weiter zu verbessern sollte zusätzlich noch ein LCD Modul verbaut werden. Damit kann permanent ohne große Umwege die CO2-Konzentration in der Raumluft abgelesen werden. 
 Desweiteren sollte die Einfache aktuell verbaute LED durch eine helleres Modell ausgetauscht werden. So kann auch bei hellen Tageslicht sichergestellt werden, dass die LED gesehen wird. 
 Für eine langfristige Verwendung des Prototypen sollte eine Gehäuse erstellt werden. Es würde sich anbieten dieses Gehäuse aufgrund vorhandener Ressourcen im additiv zu fertigen. Eine entsprechende Konstruktion müsste noch erstellt werden.
@@ -93,7 +93,7 @@ Für eine langfristige Verwendung des Prototypen sollte eine Gehäuse erstellt w
 1. Vor Beschaffung der einzelnen Komponenten sollte in folgenden Projekten eine intensivere Recherche erfolgen.
 
 **Fazit**
-Zusammenfassend lässt sich sagen, dass das Projekt ein Teilerfolg ist. Durch den unzuverlässigen CO2 Sensor kann der aktuelle Prototyp nicht in der Praxis verwendet werden. 
+Zusammenfassend lässt sich sagen, dass das Projekt ein Teilerfolg ist. Die Funktionen der Teilkomponenten werden zwar erfüllt, durch den unzuverlässigen CO2 Sensor kann der aktuelle Prototyp allerdings bisher nicht in der Praxis verwendet werden.
 
 ## Literatur
 [1] AR-CoV-2   
