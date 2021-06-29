@@ -75,6 +75,10 @@ Die RGB LED dient zur Visualisierung der Luftqualität.
 ## Flowchart
 Der Programmablauf wird im folgenden Flussdiagramm dargestellt.
 
+Die Regeln zur Bewertung der Luftqualität sind in folgender Tabelle dargestellt.
+![image](https://user-images.githubusercontent.com/62206220/123783435-a4896200-d8d6-11eb-8635-22f19b2113e8.png)
+
+
 # Ergebnisse
 
 ## Darstellung der Messwerte
