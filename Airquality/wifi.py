@@ -1,12 +1,10 @@
 import network
 import ntptime
 
-wifi_passwds_path = "path to wifi_passwds.txt"
-
 def connect():
     wifi_passwds = {}
 
-    with open(wifi_passwds_path) as f:
+    with open("cert/wifi_passwds.txt") as f:
         for line in f.readlines():
             if len(line) > 0 and ":" in line:
                 wifi_id, passwd = line.strip().split(":")
