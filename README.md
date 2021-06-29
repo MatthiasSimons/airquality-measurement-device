@@ -74,12 +74,10 @@ Der Programmablauf wird im folgenden Flussdiagramm dargestellt.
 
 # Auswertung
 
-<!-- Hex color -->
-![bg](#39ffaf)
+![image](https://user-images.githubusercontent.com/62206220/123775075-51abac80-d8ce-11eb-93b6-2b8227d40010.png)
 
-![image](https://user-images.githubusercontent.com/62206220/123774644-e3ff8080-d8cd-11eb-9826-1e8db755e2ed.png)
 
-![image](https://user-images.githubusercontent.com/62206220/123774661-e9f56180-d8cd-11eb-9618-e65724db7017.png)
+![image](https://user-images.githubusercontent.com/62206220/123775115-5a9c7e00-d8ce-11eb-8deb-b98ffabd8a17.png)
 
 
 > Kritische Diskussion und ggf. Ableiten von Verbesserungsideen; ggf. Anwendungsszenario im Industriellen Kontext
