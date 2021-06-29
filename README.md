@@ -59,19 +59,24 @@ Die Ausgabe umfasst das Programm zur quantitativen Bewertung und graphischen Dar
 ## Hardwareebene
 **Sensorik:**
 Es werden zwei Sensoren verwendet. Zum einen der MQ-135 Luftqualitäts-Sensor zur Messung der CO2-Konzentration. Außerdem der BME-280 Temperatur, Luftfeuchtigkeit und -druck Sensor. Der BME-280 Sensor dient zur Kalibrierung des MQ-135. 
+
 **Microcontroller:**
 Als Microcontroller wird ein ESP8266 verwendet. Der Microcontroller dient zur Datenverarbeitung und -übertragung. 
+
 **RGB LED:**
 Die RGB LED dient zur Visualisierung der Luftqualität.
 
 ## Flowchart
 Der Programmablauf wird im folgenden Flussdiagramm dargestellt.
 
-
-
+# Ergebnisse
 > Darstellung der erzeugten Informationen (Zeitreihen)
+
+# Auswertung
 > Interpretation der Zeitreihen
 > Kritische Diskussion und ggf. Ableiten von Verbesserungsideen; ggf. Anwendungsszenario im Industriellen Kontext
+
+
 > Anhang: Code abbilden
 
 Durch die anhaltende Coronavirus Pandemie hat der Infektionsschutz einen neuen Stellenwert erlangt. Um Infektionen mit dem SARS-CoV-2 Virus vorzubeugen sind verschiedenste Maßnahmen umzusetzen. In geschlossenen Räumen ist dies vor allem das regelmäßige lüften der Raumluft. Gerade bei kalten Temperaturen draußen ist es oftmals ein Streitpunkt wann und wie lange gelüftet werden soll. 
