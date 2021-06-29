@@ -3,7 +3,8 @@ IoT-Projekt @ Fachhochschule Aachen Industrielle Produktion und Industrie 4.0
 
 # Zusammenfassung
 
-Für das Modul Industrielle Produktion und Industrie 4.0 des Studiengangs Industrial Engineerings an der Fachhochschule Aachen wurde ein System zur Messung und Bewertung der Luftqualität in geschlossenen Räumen entwickelt. Vor dem Hintergrund der Covid-19 Pandemie dient das System zur Gewährleistung des Gesundheitsschutz und Reduzierung des Infektionsrisikos durch frühzeitige Warnung bei schlechter Luftqualität und Handlungsaufforderungen zum Lüften.
+Für das Modul Industrielle Produktion und Industrie 4.0 des Studiengangs Industrial Engineering an der Fachhochschule Aachen wurde ein System zur Messung und Bewertung der Luftqualität in geschlossenen Räumen entwickelt. Vor dem Hintergrund der Covid-19 Pandemie dient das System zur Gewährleistung des Gesundheitsschutz und Reduzierung des Infektionsrisikos durch frühzeitige Warnung bei schlechter Luftqualität und Handlungsaufforderungen zum Lüften.
+
 ![image](https://user-images.githubusercontent.com/62206220/123784157-70627100-d8d7-11eb-9fbd-799bf865e21b.jpeg)
 
 # Aufgabenstellung
@@ -74,9 +75,11 @@ Die RGB LED dient zur Visualisierung der Luftqualität.
 
 ## Flowchart
 Der Programmablauf wird im folgenden Flussdiagramm dargestellt.
+![image](https://user-images.githubusercontent.com/62206220/123785024-54ab9a80-d8d8-11eb-855c-e65ddfe68724.png)
+
 
 Die Regeln zur Bewertung der Luftqualität sind in folgender Tabelle dargestellt.
-![image](https://user-images.githubusercontent.com/62206220/123783435-a4896200-d8d6-11eb-8635-22f19b2113e8.png)
+![image](https://user-images.githubusercontent.com/62206220/123783435-a4896200-d8d6-11eb-8635-22f19b2113e8.png) [3]
 
 
 # Ergebnisse
@@ -122,4 +125,3 @@ Zusammenfassend lässt sich sagen, dass das Projekt ein Teilerfolg ist. Die Funk
 [1] AR-CoV-2   
 [2] Coronavirus-BGHM-Zusatzinformationen-Lueftungsverhalten  
 [3] Lueften_in_Klassenraeumen_Empfehlungen_LVR_Dezernat_12.40_Arbeitssicherheit  
-([4] hartmann_kriegel_2020_de)  

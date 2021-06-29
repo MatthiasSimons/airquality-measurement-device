@@ -1,3 +1,6 @@
+## NanaWangDFR micropython-dflib repository
+## https://github.com/DFRobot/micropython-dflib/blob/master/BME280/lib/BME280.py
+
 from machine import I2C
 import time
 

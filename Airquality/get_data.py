@@ -51,32 +51,23 @@ def measure():
         print('Cannot read MQ135: ' + str(e))
 
     try:
-
+        # get prognosed value, value is not used yet because of low quality data
         prognosis = process_data.prognosis(ppm)
     except Exception as e:
         print('Cannot calculate prognosis: ' + str(e))
 
-    message = {
-        'timestamp': timestamp,
-        'temperature': temperature,
-        'ppm': ppm,
-        'prognosis': prognosis,
-    }
-
     # message = {
     #     'timestamp': timestamp,
     #     'temperature': temperature,
-    #     'humidity': humidity,
-    #     'pressure': pressure,
     #     'ppm': ppm,
+    #     'prognosis': prognosis,
     # }
+
+    message = {
+        'timestamp': timestamp,
+        'temperature': temperature,
+        'humidity': humidity,
+        'pressure': pressure,
+        'ppm': ppm,
+    }
     return message
-
-
-
-
-
-
-
-
-
