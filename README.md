@@ -103,7 +103,7 @@ Für eine langfristige Verwendung des Prototypen sollte eine Gehäuse erstellt w
 - größeren Fokus auf das Projektmanagement
     - Projektinitalisierung:
         - Anforderungsdefinition
-        - Ziele klar definieren (SMART)
+        - Ziele klar definieren (SMART); Inhalt- und Umfang eingrenzen  
     - Projektdurchführung & -controlling
         - Zeit- und Ressourcenplanung
 
