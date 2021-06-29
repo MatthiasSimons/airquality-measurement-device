@@ -1,6 +1,10 @@
 # airquality-measurement-device
 IoT-Projekt @ Fachhochschule Aachen Industrielle Produktion und Industrie 4.0
 
+# Zusammenfassung
+
+Für das Modul Industrielle Produktion und Industrie 4.0 des Studiengangs Industrial Engineerings an der Fachhochschule Aachen wurde ein System zur Messung und Bewertung der Luftqualität in geschlossenen Räumen entwickelt. Vor dem Hintergrund der Covid-19 Pandemie dient das System zur Gewährleistung des Gesundheitsschutz und Reduzierung des Infektionsrisikos durch frühzeitige Warnung bei schlechter Luftqualität und Handlungsaufforderungen zum Lüften.
+
 # Aufgabenstellung
 - Suchen Sie sich eine Aufgabenstellung des Industrial Engineerings, bei der Sie eine Zeitreihenmessung benötigen
 - Beschreiben Sie den Use Case mit Problemstellung und den Versuchsaufbau
