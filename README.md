@@ -87,10 +87,10 @@ Wie bereits beschrieben sind die gemessen Werte überwiegend nicht aussagekräft
 Die Problemanalyse ergab das die Ursache der schlechten Datenqualität an dem Luftqualitätssensor liegt. Eine Recherche ergab das der MH-Z19C CO2-Sensor zuverlässiger und genauer ist. Dieser Sensor ist zwar teuer, aber gewährt die Funktion und Erfüllung der Aufgabe.
 Um die Nutzbarkeit des Prototypens zukünftig weiter zu verbessern sollte zusätzlich noch ein LCD Modul verbaut werden. Damit kann permanent ohne große Umwege die CO2-Konzentration in der Raumluft abgelesen werden. 
 Desweiteren sollte die Einfache aktuell verbaute LED durch eine helleres Modell ausgetauscht werden. So kann auch bei hellen Tageslicht sichergestellt werden, dass die LED gesehen wird. 
-Für eine langfristige Verwendung des Prototypen sollte eine Schutzhülle erstellt werden. Es würde sich anbieten diese Schutzhülle 3D zu drucken. Ein entsprechender Prototyp dafür muss jedoch noch erstellt werden.
+Für eine langfristige Verwendung des Prototypen sollte eine Gehäuse erstellt werden. Es würde sich anbieten dieses Gehäuse aufgrund vorhandener Ressourcen im additiv zu fertigen. Eine entsprechende Konstruktion müsste noch erstellt werden.
 
 **Learnings**
-- bessere Recherche
+1. Vor Beschaffung der einzelnen Komponenten sollte in folgenden Projekten eine intensivere Recherche erfolgen.
 
 **Fazit**
 Zusammenfassend lässt sich sagen, dass das Projekt ein Teilerfolg ist. Durch den unzuverlässigen CO2 Sensor kann der aktuelle Prototyp nicht in der Praxis verwendet werden. 
