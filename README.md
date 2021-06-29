@@ -1,6 +1,32 @@
 # airquality-measurement-device
 IoT-Project @ Fachhochschule Aachen Industrielle Produktion und Industrie 4.0
 
+# Aufgabenstellung
+
+> Suchen Sie sich eine Aufgabenstellung des Industrial Engineerings, bei der Sie eine Zeitreihenmessung benötigen
+> Beschreiben Sie den Use Case mit Problemstellung und den Versuchsaufbau
+> Erstellen Sie den Prototyp und führen die Messung durch; Übertragung und Darstellung der Messwerte ins Internet erforderlich
+> Auswertung und Interpretation der Messreihe
+> Lessons Learned
+
+# Deliverable 1
+
+## > Problembeschreibung
+Durch die anhaltende Coronavirus Pandemie hat der Infektionsschutz einen neuen Stellenwert erlangt. Um Infektionen mit dem SARS-CoV-2 Virus vorzubeugen sind     verschiedenste Maßnahmen umzusetzen. In geschlossenen Räumen ist dies vor allem das regelmäßige erneuern der Raumluft zur Verringerung der Aerosolbelastung.    Die Aerosolbelastung durch Covid Viren ist allerdings nicht direkt messbar. Jedoch kann die CO2-Konzentration als Qualitätsmerkmal genutzt werden, da Menschen beim Atmen CO2 und Aerosole ausstoßen. [1] Die Lüftungsdauer bis zum Erreichen einer akzeptablen Co2-Konzentration ist von diversen Einflussfaktoren wie aktuelle CO2-Konzentration, Raumgröße, Anzahl Personen sowie Innen- und Außentemperatur abhängig. [2] Aus diesem Grund werden Handlungsempfehlungen ausgesprochen die sich in abhängig vom Anwnwendungs. 
+    
+> Lösungsansatz als Use-Case oder Prozessbeschreibung: Welche Sensoren wollen Sie einsetzen, um was zu messen und welche Auswertung planen Sie auf welche Art und Weise?
+> Technisches Konzept – grafische Darstellung der geplanten Architektur
+
+# Deliverable 2
+
+> Problem und ggf. Quantifizierung des Problems
+> Use-Case beschreiben mit Lösungsidee
+> Umsetzung der Lösungsidee in Code/Flow Chart und Schaltbild
+> Darstellung der erzeugten Informationen (Zeitreihen)
+> Interpretation der Zeitreihen
+> Kritische Diskussion und ggf. Ableiten von Verbesserungsideen; ggf. Anwendungsszenario im Industriellen Kontext
+> Anhang: Code abbilden
+
 Durch die anhaltende Coronavirus Pandemie hat der Infektionsschutz einen neuen Stellenwert erlangt. Um Infektionen mit dem SARS-CoV-2 Virus vorzubeugen sind verschiedenste Maßnahmen umzusetzen. In geschlossenen Räumen ist dies vor allem das regelmäßige lüften der Raumluft. Gerade bei kalten Temperaturen draußen ist es oftmals ein Streitpunkt wann und wie lange gelüftet werden soll. 
 Dieses Projekt soll diesen Streitpunkt beseitigen. Das Projekt verfolgt das Ziel die Menschen mit einem visuellen Signal permanent über den aktuellen Zustand der Raumluft zu informieren. Außerdem soll bei einer Grenzwertüberschreitung automatisiert eine E-Mail Benachrichtigung versendet werden.
 Coronavieren als solche sind nicht ohne weiteres in der Raumluft zu messen. Wenn ein Mensch ausatmet stößt er neben den sogenannten Aerosolen die mit Coronavieren belastet sein können auch CO2 aus. Dieser Zusammenhang zwischen der CO2-Konzentration und Coronavieren in der Luft macht die CO2-Konzentration zu einem guten Indikator für Coronavieren.*
@@ -43,3 +69,12 @@ Für eine langfristige Verwendung des Prototypen sollte eine Schutzhülle erstel
 Bei diesem Github Repository handelt es sich um Dokumentation die als Anhang der ppt-Datei zu bewerten ist.
 
 *https://frida-kahlo-schule.lvr.de/media/lvrfridakahloschule/aktuelles/corona/Lueften_in_Klassenraeumen_Empfehlungen_LVR_Dezernat_12.40_Arbeitssicherheit.pdf
+
+## Literatur
+[1] AR-CoV-2
+[2] Coronavirus-BGHM-Zusatzinformationen-Lueftungsverhalten
+
+[3] Lueften_in_Klassenraeumen_Empfehlungen_LVR_Dezernat_12.40_Arbeitssicherheit
+[4] hartmann_kriegel_2020_de
+
+
