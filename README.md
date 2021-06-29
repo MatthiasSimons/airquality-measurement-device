@@ -70,16 +70,21 @@ Die RGB LED dient zur Visualisierung der Luftqualität.
 Der Programmablauf wird im folgenden Flussdiagramm dargestellt.
 
 # Ergebnisse
-> Darstellung der erzeugten Informationen (Zeitreihen)
 
-# Auswertung
-Auf folgender Abbildung ist der zeitliche Verlauf der CO2-Konzentration vom 17.05. bis zum 13.06.2021 (links) und 01.06. bis zum 04.06.2021 (rechts) dargestellt. 
+## Darstellung der Messwerte
+Auf folgender Abbildung ist der zeitliche Verlauf der CO2-Konzentration vom 17.05. bis zum 13.06.2021 (links) und 01.06. bis zum 04.06.2021 (rechts) dargestellt.   
+
 ![image](https://user-images.githubusercontent.com/62206220/123775211-7738b600-d8ce-11eb-8a8d-e2776c73dd43.png)  
 
-- Beschreibung
- - Was ist zu erkennen?
+## Auswertung
+Es ist zu erkennen, dass die Messwerte über den Zeitraum vom 17.05. bis zum 13.06.2021 stark schwanken und unrealistische Werte annehmen. Im Zeitraum vom 01.06. bis zum 04.06.2021 konnten realistische Werte aufgenommen werden. Der Verlauf der CO2 Konzentration zeigt den erwarteten nahezu linearen Verlauf an.
 
-> Kritische Diskussion und ggf. Ableiten von Verbesserungsideen; ggf. Anwendungsszenario im Industriellen Kontext
+## Diskussion
+Wie bereits beschrieben sind die gemessen Werte überwiegend nicht aussagekräftig. Zwischenzeitlich konnten plausible Messwerte aufgenommen werden und die Funktion des Systems bestätigt werden. Sobald die CO2-Konzentration 1000 ppm überschritt begann die LED gelb zu leuchten. Stieg die CO2-Konzentration weiter auf über 2000ppm leuchtete die LED rot. Desweiteren wurde durch die Grenzwertüberschreitung von 2000ppm automatisiert eine E-Mail versendet. 
+
+- kritische Betrachtung
+- Verbesserungsideen
+- Anwendungsszenario
 
 
 > Anhang: Code abbilden
