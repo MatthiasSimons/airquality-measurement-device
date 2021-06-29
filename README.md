@@ -2,7 +2,6 @@
 IoT-Projekt @ Fachhochschule Aachen Industrielle Produktion und Industrie 4.0
 
 # Aufgabenstellung
-
 - Suchen Sie sich eine Aufgabenstellung des Industrial Engineerings, bei der Sie eine Zeitreihenmessung benötigen
 - Beschreiben Sie den Use Case mit Problemstellung und den Versuchsaufbau
 - Erstellen Sie den Prototyp und führen die Messung durch; Übertragung und Darstellung der Messwerte ins Internet erforderlich
@@ -35,8 +34,16 @@ Der Prototyp wird nach der 5-A Architektur aufgebaut.
 
 ![image](https://user-images.githubusercontent.com/62206220/123763514-2c19a580-d8c4-11eb-9bad-4adc28cb15ec.png)
 
-# Umsetzung der Lösungsidee in Code/Flow Chart und Schaltbild
+# Umsetzung der Lösungsidee
 
+## Schaubild
+![image](https://user-images.githubusercontent.com/62206220/123765719-49e80a00-d8c6-11eb-8da1-aadc0ec09129.png)
+
+## Flowchart
+
+
+## Schaltbild
+![image](https://user-images.githubusercontent.com/62206220/123765137-bd3d4c00-d8c5-11eb-9092-93c5bb66e666.png)
 
 
 
