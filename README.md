@@ -45,8 +45,7 @@ Der Prototyp wird nach der 5-A Architektur aufgebaut und unterteilt sich in Date
 # Umsetzung der Lösungsidee
 Im folgendem wird die Umsetzung der Lösungsidee beschrieben. Der Prototyp unterteilt sich auf die System- und Hardwareebene. 
 
-![image](https://user-images.githubusercontent.com/62206220/123770985-fd52fd80-d8ca-11eb-8dec-cdff36617830.png)
-
+![image](https://user-images.githubusercontent.com/62206220/123784061-5759c000-d8d7-11eb-87c9-3c1a872df978.png)
 
 ## Systemebene
 
