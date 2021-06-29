@@ -10,6 +10,18 @@ IoT-Projekt @ Fachhochschule Aachen Industrielle Produktion und Industrie 4.0
 - Lessons Learned
 
 # Deliverable 1
+- Problembeschreibung
+- Lösungsansatz als Use-Case oder Prozessbeschreibung: Welche Sensoren wollen Sie einsetzen, um was zu messen und welche Auswertung planen Sie auf welche Art und Weise?
+- Technisches Konzept – grafische Darstellung der geplanten Architektur
+
+# Deliverable 2
+- Problem und ggf. Quantifizierung des Problems
+- Use-Case beschreiben mit Lösungsidee
+- Umsetzung der Lösungsidee in Code/Flow Chart und Schaltbild
+- Darstellung der erzeugten Informationen (Zeitreihen)
+- Interpretation der Zeitreihen
+- Kritische Diskussion und ggf. Ableiten von Verbesserungsideen; ggf. Anwendungsszenario im Industriellen Kontext
+- Anhang: Code abbilden
 
 ## Problembeschreibung
 Durch die anhaltende Coronavirus Pandemie hat der Infektionsschutz einen neuen Stellenwert erlangt. Um Infektionen mit dem SARS-CoV-2 Virus vorzubeugen sind     verschiedenste Maßnahmen umzusetzen. In geschlossenen Räumen ist dies vor allem das regelmäßige erneuern der Raumluft zur Verringerung der Aerosolbelastung.    Die Aerosolbelastung durch Covid Viren ist allerdings nicht direkt messbar. Die CO2-Konzentration kann als Qualitätsmerkmal genutzt werden, da Menschen beim Atmen CO2 und Aerosole ausstoßen. [1] Die Lüftungsdauer bis zum Erreichen einer akzeptablen Co2-Konzentration ist von diversen Einflussfaktoren wie aktuelle CO2-Konzentration, Raumgröße, Anzahl Personen sowie Innen- und Außentemperatur abhängig. Aus diesem Grund werden Faustregeln ausgesprochen die sich in Abhängigkeit vom Anwendungsfall und Jahreszeit unterscheiden [2] und mobile Anwendungen zur Berechnung der Lüftungsdauer empfohlen [3].
