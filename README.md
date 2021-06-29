@@ -124,4 +124,3 @@ Zusammenfassend lässt sich sagen, dass das Projekt ein Teilerfolg ist. Die Funk
 [1] AR-CoV-2   
 [2] Coronavirus-BGHM-Zusatzinformationen-Lueftungsverhalten  
 [3] Lueften_in_Klassenraeumen_Empfehlungen_LVR_Dezernat_12.40_Arbeitssicherheit  
-([4] hartmann_kriegel_2020_de)  
