@@ -44,26 +44,26 @@ Im folgendem wird die Umsetzung der Lösungsidee beschrieben. Der Prototyp unter
 
 ## Systemebene
 
-**Messsystem:**
+**Messsystem:** 
 Das Messsystem umfasst die gesame Hardware, Datenverarbeitung und Visualisierung der Luftqualität.
 
-**Datenübertragung:**
+**Datenübertragung:** 
 Die Datenübertragung dient zur Übermittlung der Messwerte an die Cloud und wird über Wifi und MQTT realisiert.
 
-**Cloud:**
+**Cloud:** 
 Die Cloud zur Speicherung der Daten in der Datenbank und weiteren Verarbeitung. Es wird der Cloud-Computing Anbieter Amazon-Web-Services (AWS) genutzt. Insbesondere die Services IoT Core, IoT Analytics und IoT SNS.
 
-**Ausgabe:**
+**Ausgabe:** 
 Die Ausgabe umfasst das Programm zur quantitativen Bewertung und graphischen Darstellung des zeitlichen Verlaufs der Luftqualität.
 
 ## Hardwareebene
-**Sensorik:**
+**Sensorik:** 
 Es werden zwei Sensoren verwendet. Zum einen der MQ-135 Luftqualitäts-Sensor zur Messung der CO2-Konzentration. Außerdem der BME-280 Temperatur, Luftfeuchtigkeit und -druck Sensor. Der BME-280 Sensor dient zur Kalibrierung des MQ-135. 
 
-**Microcontroller:**
+**Microcontroller:** 
 Als Microcontroller wird ein ESP8266 verwendet. Der Microcontroller dient zur Datenverarbeitung und -übertragung. 
 
-**RGB LED:**
+**RGB LED:** 
 Die RGB LED dient zur Visualisierung der Luftqualität.
 
 ## Flowchart
@@ -73,7 +73,14 @@ Der Programmablauf wird im folgenden Flussdiagramm dargestellt.
 > Darstellung der erzeugten Informationen (Zeitreihen)
 
 # Auswertung
+
+
 > Interpretation der Zeitreihen
+![image](https://user-images.githubusercontent.com/62206220/123774644-e3ff8080-d8cd-11eb-9826-1e8db755e2ed.png)
+
+![image](https://user-images.githubusercontent.com/62206220/123774661-e9f56180-d8cd-11eb-9618-e65724db7017.png)
+
+
 > Kritische Diskussion und ggf. Ableiten von Verbesserungsideen; ggf. Anwendungsszenario im Industriellen Kontext
 
 
