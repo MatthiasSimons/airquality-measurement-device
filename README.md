@@ -37,13 +37,35 @@ Der Prototyp wird nach der 5-A Architektur aufgebaut.
 ![image](https://user-images.githubusercontent.com/62206220/123763514-2c19a580-d8c4-11eb-9bad-4adc28cb15ec.png)
 
 # Umsetzung der Lösungsidee
+Im folgendem wird die Umsetzung der Lösungsidee beschrieben. Der Aufbau auf der Systemebene ist in der Systemdarstellung abgebildet und besteht aus den Elementen Messystem, Datenübertragung, Cloud und Ausgabe. Das Messsystem umfasst die gesame Hardware, Datenverarbeitung und Visualisierung der Luftqualität. Die Datenübertragung dient zur Übermittlung der Messwerte an die Cloud. Die Cloud zur Speicherung der Daten in der Datenbank und weiteren Verarbeitung. Die Ausgabe umfasst das Programm zur quantitativen Bewertung und graphischen Darstellung des zeitlichen Verlaufs der Luftqualität. 
+
+## System- und Hardwareebene
+
+## Messsystem
+Das Messsystem umfasst die gesame Hardware, Datenverarbeitung und Visualisierung der Luftqualität.
+### Hardware
+Es werden zwei Sensoren verwendet. Zum einen der MQ-135 Luftqualitäts-Sensor zur Messung der CO2-Konzentration. Außerdem der BME-280 Temperatur, Luftfeuchtigkeit und -druck Sensor. Der BME-280 Sensor dient zur Kalibrierung des MQ-135. Als Microcontroller wird ein ESP8266 verwendet. Der Microcontroller dient zur Datenverarbeitung und -übertragung. Die Visualisierung der Luftqualität erfolgt über eine RGB LED.
+
+### Datenverarbeitung
+
+
+### Visualisierung der Luftqualität
+
+## Datenübertragung
 
 
 ## Flowchart
 
 
-## Schaltbild
+
+
+
+### Schaltbild
 ![image](https://user-images.githubusercontent.com/62206220/123765137-bd3d4c00-d8c5-11eb-9092-93c5bb66e666.png)
+
+### Systemdarstellung
+![image](https://user-images.githubusercontent.com/62206220/123767287-a3046d80-d8c7-11eb-984d-558c2ab373af.png)
+
 
 
 
@@ -100,20 +122,3 @@ Bei diesem Github Repository handelt es sich um Dokumentation die als Anhang der
 [2] Coronavirus-BGHM-Zusatzinformationen-Lueftungsverhalten
 [3] Lueften_in_Klassenraeumen_Empfehlungen_LVR_Dezernat_12.40_Arbeitssicherheit
 [4] hartmann_kriegel_2020_de
-
-## _includes/image.html
-<div class="image-wrapper" >
-  {% if include.url %}
-  <a href="{{ include.url }}" title="{{ include.title }}" target="_blank">
-  {% endif %}
-      <img src="{{ site.url }}/{{ include.img }}" alt="{{ include.title }}"/>
-  {% if include.url %}
-  </a>
-  {% endif %}
-  {% if include.caption %}
-      <p class="image-caption">{{ include.caption }}</p>
-  {% endif %}
-</div>
-
-## Include the image in your post and specify a caption with this tag
-{% include image.html img="assets/images/image_file" title="" caption="" %}
