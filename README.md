@@ -65,7 +65,7 @@ Die Ausgabe umfasst das Programm zur quantitativen Bewertung und graphischen Dar
 
 ## Hardwareebene
 **Sensorik:** 
-Es werden zwei Sensoren verwendet. Zum einen der MQ-135 Luftqualitäts-Sensor zur Messung der CO2-Konzentration. Außerdem der BME-280 Temperatur, Luftfeuchtigkeit und -druck Sensor. Der BME-280 Sensor dient zur Kalibrierung des MQ-135. 
+Es werden zwei Sensoren verwendet. Zum einen der MQ-135 Luftqualitäts-Sensor zur Messung der CO2-Konzentration. Außerdem der BME280 Temperatur, Luftfeuchtigkeit und -druck Sensor. Der BME280 Sensor dient zur Kalibrierung des MQ-135. 
 
 **Microcontroller:** 
 Als Microcontroller wird ein ESP8266 verwendet. Der Microcontroller dient zur Datenverarbeitung und -übertragung. 
@@ -94,12 +94,12 @@ Es ist zu erkennen, dass die Messwerte über den Zeitraum vom 17.05. bis zum 13.
 
 ## Diskussion
 **Kritische Betrachtung**  
-Wie bereits beschrieben sind die gemessen Werte überwiegend nicht aussagekräftig. Zwischenzeitlich konnten plausible Messwerte aufgenommen werden und die Funktion des Systems bestätigt werden. Sobald die CO2-Konzentration 1000 ppm überschritt begann die LED gelb zu leuchten. Stieg die CO2-Konzentration weiter auf über 2000ppm leuchtete die LED rot. Desweiteren wurde durch die Grenzwertüberschreitung von 2000ppm automatisiert eine E-Mail versendet. Aufgrund der schlechten Datenbasis ließ sich kein akkurates Modell bilden. 
+Wie bereits beschrieben sind die gemessen Werte überwiegend nicht aussagekräftig. Zwischenzeitlich konnten plausible Messwerte aufgenommen werden und die Funktion des Systems bestätigt werden. Sobald die CO2-Konzentration 1000 ppm überschritt begann die LED gelb zu leuchten. Stieg die CO2-Konzentration weiter auf über 2000ppm leuchtete die LED rot. Des Weiteren wurde durch die Grenzwertüberschreitung von 2000ppm automatisiert eine E-Mail versendet. Aufgrund der schlechten Datenbasis ließ sich kein akkurates Modell bilden. 
 
 **Verbesserungsmöglichkeiten**  
 Die Problemanalyse ergab das die Ursache der schlechten Datenqualität an dem Luftqualitätssensor liegt. Eine Recherche ergab das der MH-Z19C CO2-Sensor zuverlässiger und genauer ist. Dieser Sensor ist zwar teurer, aber gewährt die Funktion und Erfüllung der Aufgabe.
 Um die Nutzbarkeit des Prototypens zukünftig weiter zu verbessern sollte zusätzlich noch ein LCD Modul verbaut werden. Damit kann permanent ohne große Umwege die CO2-Konzentration in der Raumluft abgelesen werden. 
-Desweiteren sollte die Einfache aktuell verbaute LED durch eine helleres Modell ausgetauscht werden. So kann auch bei hellen Tageslicht sichergestellt werden, dass die LED gesehen wird. 
+Des Weiteren sollte die Einfache aktuell verbaute LED durch eine helleres Modell ausgetauscht werden. So kann auch bei hellen Tageslicht sichergestellt werden, dass die LED gesehen wird. 
 Für eine langfristige Verwendung des Prototypen sollte eine Gehäuse erstellt werden. Es würde sich anbieten dieses Gehäuse aufgrund vorhandener Ressourcen im additiv zu fertigen. Eine entsprechende Konstruktion müsste noch erstellt werden.
 
 **Learnings**
