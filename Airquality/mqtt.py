@@ -5,8 +5,8 @@ from umqtt.robust import MQTTClient
 #$ openssl x509 -in e0aa6d765f-certificate.pem.crt -out cert.der -outform DER
 #$ openssl rsa -in e0aa6d765f-private.pem.key -out private.der -outform DER
 
-CERT_FILE = "cert file path"
-KEY_FILE = "key file path"
+CERT_FILE = "cert/cert.der"
+KEY_FILE = "cert/private.der"
 
 MQTT_CLIENT_ID = "client id"
 MQTT_PORT = 8883
