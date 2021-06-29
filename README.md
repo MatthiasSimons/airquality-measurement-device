@@ -65,7 +65,7 @@ Die Ausgabe umfasst das Programm zur quantitativen Bewertung und graphischen Dar
 
 ## Hardwareebene
 **Sensorik:** 
-Es werden zwei Sensoren verwendet. Zum einen der MQ-135 Luftqualitäts-Sensor zur Messung der CO2-Konzentration. Außerdem der BME-280 Temperatur, Luftfeuchtigkeit und -druck Sensor. Der BME-280 Sensor dient zur Kalibrierung des MQ-135. 
+Es werden zwei Sensoren verwendet. Zum einen der MQ-135 Luftqualitäts-Sensor zur Messung der CO2-Konzentration. Außerdem der BME280 Temperatur, Luftfeuchtigkeit und -druck Sensor. Der BME280 Sensor dient zur Kalibrierung des MQ-135. 
 
 **Microcontroller:** 
 Als Microcontroller wird ein ESP8266 verwendet. Der Microcontroller dient zur Datenverarbeitung und -übertragung. 
