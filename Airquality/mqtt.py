@@ -5,17 +5,14 @@ from umqtt.robust import MQTTClient
 #$ openssl x509 -in e0aa6d765f-certificate.pem.crt -out cert.der -outform DER
 #$ openssl rsa -in e0aa6d765f-private.pem.key -out private.der -outform DER
 
-CERT_FILE = "cert_Fabian/cert.der"
-KEY_FILE = "cert_Fabian/private.der"
+CERT_FILE = "cert file path"
+KEY_FILE = "key file path"
 
-MQTT_CLIENT_ID = "Airquality"
+MQTT_CLIENT_ID = "client id"
 MQTT_PORT = 8883
 
 
-MQTT_HOST = "a326i40wpgff59-ats.iot.eu-central-1.amazonaws.com"
-#Fabian: "a326i40wpgff59-ats.iot.eu-central-1.amazonaws.com"
-#Matthias: "a17jeona196iam-ats.iot.eu-central-1.amazonaws.com"
-
+MQTT_HOST = "host link"
 
 def connect_mqtt():
     try:
