@@ -29,6 +29,8 @@ Aufgrund der diversen und oftmals unbekannten Einflussgrößen können die Faust
 # Lösungsansatz
 Um das Problem falsch abgeleiteter Handlungen aus fehlerbehafteten Ergebnissen zu Umgehen wird ein Prototyp eines Frühwarnsystems entwickelt, dass bei schlechter Luftqualität Handlungsempfehlungen vorgibt. Das System soll Anwendung in geschlossenen Räumen wie Klassenzimmern, Büros und auch privaten Räumlichkeiten finden. Mit einem Luftqualitäts-Sensor (MQ135) wird die CO2-Konzentration in der Raumluft gemessen und regelbasiert in Echtzeit bewertet. Die Luftqualität wird über ein Ampelsystem visualisiert und bei Überschreitung eines definierten Grenzwertes wird eine Handlungsempfehlung via Benachrichtigung ausgegeben. Des Weiteren wird ein Programm zur quantitativen Bewertung und graphischen Darstellung des zeitlichen Verlaufs der Luftqualität geschrieben.
 
+![image](https://user-images.githubusercontent.com/62206220/123765719-49e80a00-d8c6-11eb-8da1-aadc0ec09129.png)
+
 # Technisches Konzept
 Der Prototyp wird nach der 5-A Architektur aufgebaut. 
 
@@ -36,8 +38,6 @@ Der Prototyp wird nach der 5-A Architektur aufgebaut.
 
 # Umsetzung der Lösungsidee
 
-## Schaubild
-![image](https://user-images.githubusercontent.com/62206220/123765719-49e80a00-d8c6-11eb-8da1-aadc0ec09129.png)
 
 ## Flowchart
 
@@ -101,4 +101,19 @@ Bei diesem Github Repository handelt es sich um Dokumentation die als Anhang der
 [3] Lueften_in_Klassenraeumen_Empfehlungen_LVR_Dezernat_12.40_Arbeitssicherheit
 [4] hartmann_kriegel_2020_de
 
+## _includes/image.html
+<div class="image-wrapper" >
+  {% if include.url %}
+  <a href="{{ include.url }}" title="{{ include.title }}" target="_blank">
+  {% endif %}
+      <img src="{{ site.url }}/{{ include.img }}" alt="{{ include.title }}"/>
+  {% if include.url %}
+  </a>
+  {% endif %}
+  {% if include.caption %}
+      <p class="image-caption">{{ include.caption }}</p>
+  {% endif %}
+</div>
 
+## Include the image in your post and specify a caption with this tag
+{% include image.html img="assets/images/image_file" title="" caption="" %}
