@@ -74,8 +74,9 @@ Der Programmablauf wird im folgenden Flussdiagramm dargestellt.
 
 # Auswertung
 
+<!-- Hex color -->
+![bg](#39ffaf)
 
-> Interpretation der Zeitreihen
 ![image](https://user-images.githubusercontent.com/62206220/123774644-e3ff8080-d8cd-11eb-9826-1e8db755e2ed.png)
 
 ![image](https://user-images.githubusercontent.com/62206220/123774661-e9f56180-d8cd-11eb-9618-e65724db7017.png)
