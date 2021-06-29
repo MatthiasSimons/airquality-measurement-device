@@ -123,7 +123,7 @@ Bei diesem Github Repository handelt es sich um Dokumentation die als Anhang der
 *https://frida-kahlo-schule.lvr.de/media/lvrfridakahloschule/aktuelles/corona/Lueften_in_Klassenraeumen_Empfehlungen_LVR_Dezernat_12.40_Arbeitssicherheit.pdf
 
 ## Literatur
-[1] AR-CoV-2
-[2] Coronavirus-BGHM-Zusatzinformationen-Lueftungsverhalten
-[3] Lueften_in_Klassenraeumen_Empfehlungen_LVR_Dezernat_12.40_Arbeitssicherheit
-[4] hartmann_kriegel_2020_de
+[1] AR-CoV-2   
+[2] Coronavirus-BGHM-Zusatzinformationen-Lueftungsverhalten  
+[3] Lueften_in_Klassenraeumen_Empfehlungen_LVR_Dezernat_12.40_Arbeitssicherheit  
+[4] hartmann_kriegel_2020_de  
