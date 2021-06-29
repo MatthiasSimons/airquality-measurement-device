@@ -98,7 +98,8 @@ Für eine langfristige Verwendung des Prototypen sollte eine Gehäuse erstellt w
 4. Microcontroller und Sensorik
 5. Datenanalyse und -visualisierung
 
--> Vor Beschaffung der einzelnen Komponenten sollte in folgenden Projekten eine intensivere Recherche erfolgen.
+**Lessons Learned**  
+Vor Beschaffung der einzelnen Komponenten sollte in folgenden Projekten eine intensivere Recherche erfolgen.
 
 **Fazit**  
 Zusammenfassend lässt sich sagen, dass das Projekt ein Teilerfolg ist. Die Funktionen der Teilkomponenten werden zwar erfüllt, durch den unzuverlässigen CO2 Sensor kann der aktuelle Prototyp allerdings bisher nicht in der Praxis verwendet werden.
