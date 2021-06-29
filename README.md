@@ -27,12 +27,14 @@ Durch die anhaltende Coronavirus Pandemie hat der Infektionsschutz einen neuen S
 Aufgrund der diversen und oftmals unbekannten Einflussgrößen können die Faustregeln und Berechnungen zu falschen Ergebnissen und Handlungen führen, die in einem mangelndem Infektionsschutz münden.
     
 # Lösungsansatz
-Um das Problem falsch abgeleiteter Handlungen aus fehlerbehafteten Ergebnissen zu Umgehen wird ein Prototyp eines Frühwarnsystems entwickelt, dass bei schlechter Luftqualität Handlungsempfehlungen vorgibt. Das System soll Anwendung in geschlossenen Räumen wie Klassenzimmern, Büros und auch privaten Räumlichkeiten finden. Mit einem Luftqualitäts-Sensor (MQ135) wird die CO2-Konzentration in der Raumluft gemessen und regelbasiert in Echtzeit bewertet. Die Luftqualität wird über ein Ampelsystem visualisiert und bei Überschreitung eines definierten Grenzwertes wird eine Handlungsempfehlung via Benachrichtigung ausgegeben. Des Weiteren wird ein Programm zur quantitativen Bewertung, Modellbildung und graphischen Darstellung des zeitlichen Verlaufs der Luftqualität geschrieben. 
+Um das Problem falsch abgeleiteter Handlungen aus fehlerbehafteten Ergebnissen zu Umgehen wird ein Prototyp eines Frühwarnsystems entwickelt, dass bei schlechter Luftqualität Handlungsempfehlungen vorgibt. Das System soll Anwendung in geschlossenen Räumen wie Klassenzimmern, Büros und auch privaten Räumlichkeiten finden.
 
 ![image](https://user-images.githubusercontent.com/62206220/123765719-49e80a00-d8c6-11eb-8da1-aadc0ec09129.png)
 
+Mit einem Luftqualitäts-Sensor wird die CO2-Konzentration in der Raumluft gemessen und regelbasiert in Echtzeit bewertet. Die Luftqualität wird über ein Ampelsystem visualisiert und bei Überschreitung eines definierten Grenzwertes wird eine Handlungsempfehlung via Benachrichtigung ausgegeben. Des Weiteren wird ein Programm zur quantitativen Bewertung, Modellbildung und graphischen Darstellung des zeitlichen Verlaufs der Luftqualität geschrieben. 
+
 # Technisches Konzept
-Der Prototyp wird nach der 5-A Architektur aufgebaut. 
+Der Prototyp wird nach der 5-A Architektur aufgebaut und unterteilt sich in Datenerfassung, -sicherung und -analyse sowie Modellbildung und Handlungsaufforderung.
 
 ![image](https://user-images.githubusercontent.com/62206220/123763514-2c19a580-d8c4-11eb-9bad-4adc28cb15ec.png)
 
