@@ -73,12 +73,11 @@ Der Programmablauf wird im folgenden Flussdiagramm dargestellt.
 > Darstellung der erzeugten Informationen (Zeitreihen)
 
 # Auswertung
+Auf folgender Abbildung ist der zeitliche Verlauf der CO2-Konzentration vom 17.05. bis zum 13.06.2021 (links) und 01.06. bis zum 04.06.2021 (rechts) dargestellt. 
+![image](https://user-images.githubusercontent.com/62206220/123775211-7738b600-d8ce-11eb-8a8d-e2776c73dd43.png)  
 
-![image](https://user-images.githubusercontent.com/62206220/123775075-51abac80-d8ce-11eb-93b6-2b8227d40010.png)
-
-
-![image](https://user-images.githubusercontent.com/62206220/123775115-5a9c7e00-d8ce-11eb-8deb-b98ffabd8a17.png)
-
+- Beschreibung
+ - Was ist zu erkennen?
 
 > Kritische Diskussion und ggf. Ableiten von Verbesserungsideen; ggf. Anwendungsszenario im Industriellen Kontext
 
