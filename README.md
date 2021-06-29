@@ -44,16 +44,16 @@ Im folgendem wird die Umsetzung der Lösungsidee beschrieben. Der Prototyp unter
 
 ## Systemebene
 
-### Messsystem
+**Messsystem**
 Das Messsystem umfasst die gesame Hardware, Datenverarbeitung und Visualisierung der Luftqualität.
 
-### Datenübertragung
+**Datenübertragung**
 Die Datenübertragung dient zur Übermittlung der Messwerte an die Cloud und wird über Wifi und MQTT realisiert.
 
-### Cloud
+**Cloud**
 Die Cloud zur Speicherung der Daten in der Datenbank und weiteren Verarbeitung. Es wird der Cloud-Computing Anbieter Amazon-Web-Services (AWS) genutzt. Insbesondere die Services IoT Core, IoT Analytics und IoT SNS.
 
-### Ausgabe
+**Ausgabe**
 Die Ausgabe umfasst das Programm zur quantitativen Bewertung und graphischen Darstellung des zeitlichen Verlaufs der Luftqualität.
 
 ## Hardwareebene
