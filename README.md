@@ -92,13 +92,19 @@ Desweiteren sollte die Einfache aktuell verbaute LED durch eine helleres Modell 
 Für eine langfristige Verwendung des Prototypen sollte eine Gehäuse erstellt werden. Es würde sich anbieten dieses Gehäuse aufgrund vorhandener Ressourcen im additiv zu fertigen. Eine entsprechende Konstruktion müsste noch erstellt werden.
 
 **Learnings**
-1. Vor Beschaffung der einzelnen Komponenten sollte in folgenden Projekten eine intensivere Recherche erfolgen.
+1. Programmierung in Python, SQL und Micropython
+2. Datenübertragung mit MQTT
+3. Nutzung von Cloud-Computing Technologien
+4. Microcontroller und Sensorik
+5. Datenanalyse und -visualisierung
 
-**Fazit**
+-> Vor Beschaffung der einzelnen Komponenten sollte in folgenden Projekten eine intensivere Recherche erfolgen.
+
+**Fazit**  
 Zusammenfassend lässt sich sagen, dass das Projekt ein Teilerfolg ist. Die Funktionen der Teilkomponenten werden zwar erfüllt, durch den unzuverlässigen CO2 Sensor kann der aktuelle Prototyp allerdings bisher nicht in der Praxis verwendet werden.
 
 ## Literatur
 [1] AR-CoV-2   
 [2] Coronavirus-BGHM-Zusatzinformationen-Lueftungsverhalten  
 [3] Lueften_in_Klassenraeumen_Empfehlungen_LVR_Dezernat_12.40_Arbeitssicherheit  
-[4] hartmann_kriegel_2020_de  
+([4] hartmann_kriegel_2020_de)  
