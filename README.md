@@ -121,6 +121,10 @@ Für eine langfristige Verwendung des Prototypen sollte eine Gehäuse erstellt w
 **Fazit**  
 Zusammenfassend lässt sich sagen, dass das Projekt ein Teilerfolg ist. Die Funktionen der Teilkomponenten werden zwar erfüllt, durch den unzuverlässigen CO2 Sensor kann der aktuelle Prototyp allerdings bisher nicht in der Praxis verwendet werden.
 
+**Ausarbeitung von**  
+Fabian Meyer:       3125420   
+Matthias Simons:    3104576  
+
 ## Literatur
 [1] AR-CoV-2   
 [2] Coronavirus-BGHM-Zusatzinformationen-Lueftungsverhalten  
