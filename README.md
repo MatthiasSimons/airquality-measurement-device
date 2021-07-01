@@ -121,6 +121,8 @@ Für eine langfristige Verwendung des Prototypen sollte eine Gehäuse erstellt w
 **Fazit**  
 Zusammenfassend lässt sich sagen, dass das Projekt ein Teilerfolg ist. Die Funktionen der Teilkomponenten werden zwar erfüllt, durch den unzuverlässigen CO2 Sensor kann der aktuelle Prototyp allerdings bisher nicht in der Praxis verwendet werden.
 
+**Ausarbeit von**
+
 Simons, Matthias 3104576
 
 Meyer, Fabian  3125420 
